@@ -26,7 +26,7 @@ class BootstrapUIServiceProvider extends ServiceProvider
         }
 
         Admin::booting(function () use ($vendor_path) {
-            $skin = str_replace('skin', 'skin-md', config('admin.skin'));
+            $skin = str_replace('skin', 'skin-xa', config('admin.skin'));
 
             array_push(
                 Admin::$baseCss,
