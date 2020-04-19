@@ -1,10 +1,10 @@
 <?php
 
-namespace Xa\bootstrapUI;
+namespace Xa\BootstrapUI;
 
 use Encore\Admin\Extension;
 
-class bootstrapUI extends Extension
+class BootstrapUI extends Extension
 {
     public $name = 'bootstrap-ui';
 
