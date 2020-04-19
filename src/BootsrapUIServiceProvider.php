@@ -16,7 +16,7 @@ class BootstrapUIServiceProvider extends ServiceProvider
             return;
         }
 
-        $vendor_path = 'vendor/laravel-admin-ext/boostrap-ui/';
+        $vendor_path = 'vendor/laravel-admin-ext/bootsrap-ui/';
 
         if ($this->app->runningInConsole() && $assets = $extension->assets()) {
             $this->publishes(
@@ -35,7 +35,7 @@ class BootstrapUIServiceProvider extends ServiceProvider
             );
             array_push(
                 Admin::$baseJs,
-                $vendor_path . 'Boostrap/dist/js/bootstrap.bundle.min.js'
+                $vendor_path . 'Bootsrap/dist/js/bootstrap.bundle.min.js'
             );
 
             //  Admin::script('$.boostrap.init()');

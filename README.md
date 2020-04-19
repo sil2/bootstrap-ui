@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-composer require xa/laravel-admin-bootstrap-ui
+composer require xa/bootstrap-ui
 php artisan vendor:publish --tag=laravel-admin-bootstrap-ui
 ```
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Xa\BoostrapUI;
+namespace Xa\BootsrapUI;
 
 use Encore\Admin\Extension;
 
-class BoostrapUI extends Extension
+class BootsrapUI extends Extension
 {
-    public $name = 'boostrap-ui';
+    public $name = 'bootsrap-ui';
 
     public $assets = __DIR__ . '/../resources/assets';
 }
