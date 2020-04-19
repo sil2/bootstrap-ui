@@ -1,6 +1,6 @@
 <?php
 
-namespace Xa\BoostrapUI;
+namespace Xa\BootstrapUI;
 
 use Encore\Admin\Admin;
 use Illuminate\Support\ServiceProvider;
@@ -10,9 +10,9 @@ class BootstrapUIServiceProvider extends ServiceProvider
     /**
      * {@inheritdoc}
      */
-    public function boot(BootsrapUI $extension)
+    public function boot(BootstrapUI $extension)
     {
-        if (!BootsrapUI::boot()) {
+        if (!BootstrapUI::boot()) {
             return;
         }
 
@@ -30,12 +30,12 @@ class BootstrapUIServiceProvider extends ServiceProvider
 
             array_push(
                 Admin::$baseCss,
-                $vendor_path . 'Bootsrap/dist/css/bootstrap.min.css'
+                $vendor_path . 'Bootstrap/dist/css/bootstrap.min.css'
 
             );
             array_push(
                 Admin::$baseJs,
-                $vendor_path . 'Bootsrap/dist/js/bootstrap.bundle.min.js'
+                $vendor_path . 'Bootstrap/dist/js/bootstrap.bundle.min.js'
             );
 
             //  Admin::script('$.bootsrap.init()');
