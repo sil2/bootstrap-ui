@@ -1,14 +1,13 @@
 {
-    "name": "jxlwqq/material-ui",
-    "description": "material ui for laravel-admin",
+    "name": "xa/laravel-admin-bootstrap",
+    "description": "bootstrap ui for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/jxlwqq/material-ui",
     "license": "MIT",
     "authors": [
         {
-            "name": "jxlwqq",
-            "email": "jxlwqq@gmail.com"
+            "name": "sil2",
+           
         }
     ],
     "require": {
@@ -20,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Jxlwqq\\MaterialUI\\": "src/"
+            "xa\\laravelAdminBootstrap\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jxlwqq\\MaterialUI\\MaterialUIServiceProvider"
+                "xa\\laravelAdminBootstrap\\BootstrapUIServiceProvider"
             ]
 
         }
