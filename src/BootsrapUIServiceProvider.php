@@ -10,9 +10,9 @@ class BootstrapUIServiceProvider extends ServiceProvider
     /**
      * {@inheritdoc}
      */
-    public function boot(BoostrapUI $extension)
+    public function boot(BootsrapUI $extension)
     {
-        if (!BoostrapUI::boot()) {
+        if (!BootsrapUI::boot()) {
             return;
         }
 
@@ -21,7 +21,7 @@ class BootstrapUIServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole() && $assets = $extension->assets()) {
             $this->publishes(
                 [$assets => public_path($vendor_path)],
-                'laravel-admin-boostrap-ui'
+                'laravel-admin-bootsrap-ui'
             );
         }
 
@@ -30,7 +30,7 @@ class BootstrapUIServiceProvider extends ServiceProvider
 
             array_push(
                 Admin::$baseCss,
-                $vendor_path . 'Boostrap/dist/css/bootstrap.min.css'
+                $vendor_path . 'Bootsrap/dist/css/bootstrap.min.css'
 
             );
             array_push(
@@ -38,7 +38,7 @@ class BootstrapUIServiceProvider extends ServiceProvider
                 $vendor_path . 'Bootsrap/dist/js/bootstrap.bundle.min.js'
             );
 
-            //  Admin::script('$.boostrap.init()');
+            //  Admin::script('$.bootsrap.init()');
         });
     }
 }
