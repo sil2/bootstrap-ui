@@ -6,16 +6,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "sil2",
+            "name": "sil2"
            
         }
     ],
     "require": {
         "php": ">=7.0.0",
         "encore/laravel-admin": ">=1.6.1"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~6.0"
     },
     "autoload": {
         "psr-4": {
