@@ -1,5 +1,5 @@
 {
-    "name": "xa/laravel-admin-bootstrap",
+    "name": "xa/laravel-admin-bootstrap-ui",
     "description": "bootstrap ui for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "xa\\laravelAdminBootstrap\\": "src/"
+            "xa\\laravelAdminBootstrapUI\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "xa\\laravelAdminBootstrap\\BootstrapUIServiceProvider"
+                "xa\\laravelAdminBootstrapUI\\BootstrapUIServiceProvider"
             ]
 
         }

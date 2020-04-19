@@ -5,7 +5,7 @@ namespace Xa\BoostrapUI;
 use Encore\Admin\Admin;
 use Illuminate\Support\ServiceProvider;
 
-class MaterialUIServiceProvider extends ServiceProvider
+class BootstrapUIServiceProvider extends ServiceProvider
 {
     /**
      * {@inheritdoc}
