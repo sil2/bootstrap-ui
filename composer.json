@@ -10,10 +10,6 @@
            
         }
     ],
-    "require": {
-        "php": ">=7.0.0",
-        "encore/laravel-admin": ">=1.6.1"
-    },
     "autoload": {
         "psr-4": {
             "xa\\bootstrapUI\\": "src/"
